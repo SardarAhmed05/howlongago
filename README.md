@@ -4,7 +4,5 @@ A simple Streamlit app to calculate the number of days, minutes, and seconds bet
 
 ## Demo
 
-![Screenshot](howlongago.jpeg)
-
-## Run locally
+![Screenshot](howlongago.jpg)
 
