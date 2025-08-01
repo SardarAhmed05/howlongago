@@ -1,2 +1,10 @@
-# howlongago
-HowLongAgo: A python app which gives you the days passed between two given dates. Not just days, even minutes and seconds if you want.
+# HowLongAgo
+
+A simple Streamlit app to calculate the number of days, minutes, and seconds between two dates.
+
+## Demo
+
+![Screenshot](howlongago.jpeg)
+
+## Run locally
+
