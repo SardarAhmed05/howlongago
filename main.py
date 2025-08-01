@@ -17,14 +17,14 @@ default = date(2000,1,1)
 
 
 try:
-    first_date = st.date_input("Enter the starting date in format ( YYYY-MM-DD ): ", value=default,  max_value=date.today())
+    first_date = st.date_input("Enter the starting date in format ( YYYY-MM-DD ): ", value=default,  max_value=date(2050, 12,31))
     # first_date = datetime.strptime(first_date, "%Y-%m-%d")
     
 except ValueError:
     print("❌ Invalid format! Please use YYYY-MM-DD.\n")
 
 try:
-    second_date = st.date_input("Enter the ending date in format ( YYYY-MM-DD ): ", max_value=date.today())
+    second_date = st.date_input("Enter the ending date in format ( YYYY-MM-DD ): ", max_value=date(2050, 12,31))
     # second_date = datetime.strptime(second_date, "%Y-%m-%d")
 
 except ValueError:
